@@ -3,10 +3,10 @@ Simple macros which wraps your `clocks` with specified guard
 
 ## What is it?
 Let's say we have some settings modal window.  
-It's attached to a **statically** created model, and we'd like to connect this modal to **multiple** places.
-So, we need all our connections to work only when we called window from a specific place.
-That'd be a log of boilerplate - you need a lot of `guard` wrappers etc.
-This babel macro does this work for you
+It's attached to a **statically** created model, and we'd like to connect this modal to **multiple** places.  
+So, we need all our connections to work only when we called window from a specific place.  
+That'd be a log of boilerplate - you need a lot of `guard` wrappers etc.  
+This babel macro does this work for you!
 
 ## Installation
 
