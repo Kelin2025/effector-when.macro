@@ -72,7 +72,7 @@ $isOpened
 $currentOptions
   .on(guard({
     clock: $options,
-    filter: \$isOpened
+    filter: $isOpened
   }), (prev, next) => next);
 });
 ```
@@ -95,8 +95,7 @@ when($isOpened, () => {
     target
   });
 
-  $store
-    .on($foo, callback)
+  $store.on($foo, callback)
 });
 ```
 Converts to
