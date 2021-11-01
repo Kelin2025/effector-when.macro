@@ -115,6 +115,5 @@ guard({
   target
 });
 
-$store
-  .on(guard({ clock: $foo, filter: $isOpened }), callback)
+$store.on(guard({ clock: $foo, filter: $isOpened }), callback)
 ```
